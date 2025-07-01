@@ -1,0 +1,130 @@
+    body {
+    background: #008eab;
+    background: linear-gradient(90deg, rgba(0, 142, 171, 1) 0%, rgba(16, 21, 41, 1) 22%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    }
+    div#Info {
+        width: 400px;
+        height: 35px;
+        border: solid;
+        background-color: #000000;
+        opacity: 0.7;
+        transform: translateY(-5px);
+        border-radius: 0 0 100px 100px;
+        display: block;
+        position: sticky;
+        margin: 0px auto 0px auto;
+
+    }
+    .LogoNav {
+        width: 32px;
+        height: 32px;
+        margin: 1px auto 0 auto;
+
+    }
+    .Navig {
+        display: block;
+        flex-wrap: nowrap;
+    }
+    div#Navigation {
+        width: 40px;
+        height: 400px;
+     background-color: #000000;
+     border-radius: 0 100px 100px 0;
+     opacity: 0.7;
+     margin: 200px 0 auto;
+     display: block;
+     transform: translate3d(-8px, 100px, 0px);
+     position: sticky;
+    }
+    div#Main {
+        width: 500px;
+        height: 600px;
+        margin: 175px auto 100px auto;
+        background-color: #000000;
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 0.5;
+        border-radius: 100px;
+    }
+    .WebGuideText {
+    color: whitesmoke;
+    text-align: center;
+    font: sans-serif;
+    transform: translate3d(0px, 25px, 0px);
+        -webkit-user-select: none;
+   user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.CreatePost {
+        border: none;
+    border-radius: 100px;
+    font: sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    width: 130px;
+    height: 30px;
+    margin: 100px 0 0 75px;
+    text-align: center;
+    display: block;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+        -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.CreatePost:hover {
+    background-color: #101529;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+    color: #FFFFFF;
+}
+.Question {
+        border: none;
+    border-radius: 100px;
+    font: sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    width: 130px;
+    height: 30px;
+    margin: 100px 0 0 100px;
+    text-align: center;
+    display: block;
+    transform: translate3d(200px, -130px, 0px);
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+        -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.Question:hover {
+    background-color: #101529;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+    color: #FFFFFF;
+}
+.Other {
+        border: none;
+    border-radius: 100px;
+    font: sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    width: 130px;
+    height: 30px;
+    margin: 0px auto 0 auto;
+    text-align: center;
+    display: block;
+    transform: translate3d(0px, -50px, 0px);
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+        -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.Other:hover {
+    background-color: #101529;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+    color: #FFFFFF;
+}

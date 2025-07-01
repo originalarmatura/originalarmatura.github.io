@@ -1,0 +1,419 @@
+            html {
+            scroll-behavior: smooth;
+            }
+
+            ::-webkit-scrollbar {
+            background-color: black;
+            }
+
+            ::-webkit-scrollbar-track {
+            background-color: #101529;
+            border-radius: 100px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+            background-color: white;
+            border: solid;
+            border-color: gray;
+            border-radius: 100px;
+            }
+
+            .inputUser {
+            display: block;
+            margin: 75px auto 20px auto;
+            border-radius: 100px;
+            width: 150px;
+            height: 30px;
+            border: none;
+            transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+            user-select: none;
+            font-family: sans-serif;
+            }
+
+            .inputUser:hover {
+            background-color: #101529;
+            box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+            color: #FFFFFF;
+            }
+
+            body {
+            background: #008eab;
+            background: linear-gradient(90deg, rgba(0, 142, 171, 1) 0%, rgba(16, 21, 41, 1) 22%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-size: cover;
+            overflow: auto;
+            touch-action: none;
+            font-family: 'MyCustomFont', sans-serif;
+            }
+
+            .Login {
+            border: none;
+            border-width: thick;
+            border-radius: 0px 0px 100px 100px;
+            background-color: ghostwhite;
+            user-select: none;
+            display: block;
+            margin: 0 auto;
+            background-color: black;
+            opacity: 0.5;
+            transform: translateY(-10px);
+            }
+
+            .inputPassword {
+            width: auto;
+            height: auto;
+            position: center;
+            display: block;
+            margin: 0 auto;
+            border-radius: 100px;
+            border: none;
+            width: 150px;
+            height: 30px;
+            transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+            user-select: none;
+            }
+
+            .inputPassword:hover {
+            background-color: #101529;
+            box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+            color: #FFFFFF;
+            }
+
+            .LoginButton {
+            display: block;
+            margin: 20px auto 0px auto;
+            width: 50px;
+            height: 20px;
+            border-radius: 100px;
+            border: none;
+            box-shadow: 10px;
+            transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+            user-select: none;
+            font-family: sans-serif;
+            }
+
+            .LoginButton:hover {
+            background-color: #101529;
+            box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+            color: #FFFFFF;
+            }
+
+            ::-webkit-input-placeholder {
+            text-align:center;
+            font-family: sans-serif;
+            }
+
+            div#example {
+            border-radius: 100px;
+            background-color: black;
+            width: 400px;
+            height: 700px;
+            opacity: 0.5;
+            margin: 100px auto 0px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .WebGuideText {
+            transform: translate3d(0px, 60px, 0px);
+            color: whitesmoke;
+            text-align: center;
+            scale: 25px;
+            font: sans-serif;
+            user-select: none;
+            margin: 0 0 210px 0;
+            font-family: sans-serif;
+            }
+
+            .LogoLogin {
+             width: 100px;
+             height: 100px;
+             transform: translateX(150px);
+             margin: 50px auto 0px auto;
+             user-select: none;
+             display: flex;
+             }
+
+             .RegisterText {
+             margin: 30px auto;
+             color: whitesmoke;
+             display: block;
+             font: sans-serif 3px;
+             user-select: none;
+             }
+
+             .CreateAccount {
+             border: none;
+             border-radius: 100px;
+             font: sans-serif;
+             background-color: whitesmoke;
+             color: black;
+             width: 60px;
+             height: 20px;
+             margin: 70px auto 0 auto;
+             text-align: center;
+             display: block;
+             transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+             user-select: none;
+             }
+
+             .CreateAccount:hover {
+             background-color: #101529;
+             box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+             color: #FFFFFF;
+             }
+
+             .Info {
+             width: auto;
+             height: 35px;
+             border: solid;
+             background-color: #000000;
+             opacity: 0.7;
+             transform: translateY(-8px);
+             border-radius: 0 0 100px 100px;
+             display: block;
+             position: sticky;
+             margin: 0px auto 0px auto;
+             position: sticky;
+             }
+
+             .LogoNav {
+             width: 32px;
+             height: 32px;
+             margin: 1px auto 0 auto;
+             }
+
+             div#Register {
+             width: 400px;
+             height: 700px;
+             border-radius: 100px;
+             background-color: black;
+             border: none;
+             opacity: 0.5;
+             margin: 100px auto;
+             display: block;
+             }
+
+             .LogoRegister {
+             margin: 30px auto;
+             display: block;
+             }
+
+             .WebGuideH1 {
+             margin: 70px 0 150px 0;
+             text-align: center;
+             color: whitesmoke;
+             transform: translate3d(0px, 60px, 0px);
+             user-select: none;
+             display: block;
+             }
+
+             .LoginInput {
+             text-align: center;
+             width: 150px;
+             height: 30px;
+             border-radius: 100px;
+             border: none;
+             position: center;
+             margin: 30px auto;
+             transform: translate3d(0px, 60px, 0px);
+             display: block;
+             }
+
+             .RegisterButton {
+             width: 100px;
+             height: 30px;
+             border-radius: 100px;
+             margin: 30px auto;
+             display: block;
+             border: none;
+             box-shadow: 10px;
+             display: block;
+             transform: translate3d(0px, 60px, 0px);
+             }
+
+             .LogoRegister {
+             transform: translateY(30px);
+             margin: 0px auto 75px auto;
+             }
+
+             .CheckPassword {
+             text-align: center;
+             width: 150px;
+             height: 30px;
+             border-radius: 100px;
+             border: none;
+             position: center;
+             margin: 30px auto;
+             transform: translate3d(0px, 60px, 0px);
+             display: block;
+             }
+
+             .HaveAccount {
+             margin: 30px auto;
+             color: whitesmoke;
+             display: block;
+             font: sans-serif 3px;
+             }
+
+             .LoginButton {
+             display: flex;
+             margin: 20px auto 0px auto;
+             width: 50px;
+             height: 20px;
+             border-radius: 100px;
+             border: none;
+             box-shadow: 10px;
+             } 
+
+             .LogoNav {
+             width: 32px;
+             height: 32px;
+             margin: 1px auto 0 auto;
+             }
+
+             .Nav {
+             width: 75px;
+             height: 80px;
+             margin: 180px auto 0px auto;
+             opacity: 0.5;
+             transform: translate3d(0px, -170px, 0px);
+             background-color: black;
+             border-radius: 20px
+             }
+
+             .RegisterNav {
+             display: block;
+             margin: 10px auto 0px auto;
+             width: 60px;
+             height: 20px;
+             border-radius: 100px;
+             border: none;
+             box-shadow: 10px;
+             transform: translate3d(0px, 15px, 0px);
+             transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+             font-family: sans-serif;
+             }
+
+             .LoginNav {
+             display: block;
+             margin: 10px auto 0px auto;
+             width: 60px;
+             height: 20px;
+             border-radius: 100px;
+             border: none;
+             box-shadow: 10px;
+             transform: translate3d(0px, 15px, 0px);
+             transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+             font-family: sans-serif;
+             }
+
+             .RegisterNav:hover {
+             background-color: #101529;
+             box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+             color: #FFFFFF;
+             }
+
+             .LoginNav:hover {
+             background-color: #101529;
+             box-shadow: 0 0 0 2px #fff, 0 0 0 4px #101529;
+             color: #FFFFFF;
+             }
+
+             .warning {
+             margin: 5px auto 5px auto;
+             color: white;
+             font-family: sans-serif;
+             }
+
+             .warning2 {
+             margin: 0 auto 0 auto;
+             color: white;
+             font-family: sans-serif;
+             }
+
+             .CreatorButton {
+             height: 10px;
+             width: 10px;
+             opacity: 1;
+             }
+
+             .CreatorSecretPanel_LoginButton {
+             margin: 20px auto 0px auto;
+             width: 50px;
+             height: 20px;
+             border-radius: 100px;
+             border: none;
+             box-shadow: 10px;
+             transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.2s;
+             user-select: none;
+             font-family: sans-serif;
+             }
+
+             div#CreatorSecretPanel {
+             height: 90px;
+             width: 300px;
+             background-color: black;
+             opacity: 0.5;
+             border-radius: 50px;
+             border: none;
+             margin: 20px auto 10px auto;
+             }
+
+             .CreatorSecretPanel_LoginText {
+             margin: 10px auto 10px auto;
+             color: white;
+             font-family: sans-serif;
+             user-select: none;
+             }
+
+             .CreatorSecretPanel_H3 {
+             margin: 10px auto 10px auto;
+             color: white;
+             font-family: sans-serif;
+             user-select: none;
+             }
+
+             .RedText {
+             color: red;
+             }
+
+             .foot {
+             width: 100%;
+             height: 60px;
+             background-color: black;
+             margin: 100px auto 0px auto;
+             opacity: 0.6;
+             }
+
+             .WebGuideH1Foot {
+             color: white;
+             margin: 10px auto 10px auto;
+             font-family: sans-serif;             
+             }
+
+             .Movedown {
+             color: white;
+             background-color: black;
+             opacity: 0.5;
+             margin: 20px auto 20px auto;
+             border-radius: 50px;
+             }
+
+             .unsupported-message {
+             display: none;
+             font-size: 24px;
+             color: red;
+             text-align: center;
+             margin-top: 20%;
+             }
+
+             @font-face {
+             font-family: 'RobotoCondensed';
+             src: url('fonts/RobotoCondensed-VariableFont_wght.ttf') format('ttf'),
+             font-weight: normal;
+             font-style: normal;
+             }
