@@ -1,0 +1,71 @@
+<html>
+
+  <head>
+
+    <title>Web-Guide | Login | Register</title>
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/account-style.css" type="text/css">
+    <script src="js/account-js.js"></script>
+
+  </head>
+
+  <body>
+    
+    <!---ВЕРХНЯЯ ПОЛОСА-->
+    <header class="Info content" align="center">
+        <h6 class="warning content">*The site <span class="RedText">ONLY</span> supports <span class="RedText">75%</span> scale</h6>
+        <h6 class="warning2 content">At other scale elements will be displayed <span class="RedText">INCORRECTLY</span></h6>
+        <!---ЗДЕСЬ ДОЛЖЕН БЫТЬ IMG-->
+    </header>
+
+    <!---АДМИН-ПАНЕЛЬ-->
+    <div id="CreatorSecretPanel content" style="display: none;">
+        <h3 class="CreatorSecretPanel_H3 content">ADMIN-PANEL</h3>
+        <p class="CreatorSecretPanel_LoginText content">Вход без аккаунта</p>
+        <button class="CreatorSecretPanel_LoginButton content" onclick="window.location='main/WebGuide-Main.html'">Login</button>
+    </div>
+
+    <!---ЛОГИН-->
+    <div id="example" class="content">
+        <form class="content">
+            <!---ЗДЕСЬ ДОЛЖЕН БЫТЬ IMG РАЗМЕРОМ 100*100 И КЛАССОМ LOGOLOGIN-->
+            <h1 class="WebGuideText content">WebGuide</h1>
+            <input type="WriteBox" name="Login" required class="inputUser content" placeholder="Username" style="text-align: center;">
+            <input type="password" name="Password" required class="inputPassword content" placeholder="Password" style="text-align: center;">
+            <input type="submit" name="LoginEnd" value="Login" class="LoginButton content" onclick="window.location='mainpage.html'">
+        </form>
+    </div>
+
+    <!--РЕГИСТРАЦИЯ-->
+    <div class="content" align="center" id="Register" style="display: none;">
+        <!---ЗДЕСЬ ДОЛЖЕН БЫТЬ IMG РАЗМЕРОМ 100*100 И КЛАССОМ LOGOREGISTER-->
+        <h1 align="center" class="WebGuideH1 content">WebGuide</h1>
+            <form class="content">
+                <input type="WriteBox" name="Login" placeholder="Username" class="LoginInput content" required>
+                <input type="Email" name="Email" placeholder="E-mail" class="LoginInput content" required>
+                <input type="Password" name="Password" placeholder="Password" class="LoginInput content" required>
+                <input type="password" name="confirmPassword" required class="CheckPassword content" placeholder="Confirm Password">
+                <button type="submit" class="RegisterButton content">Create</button>
+            </form>     
+
+    </div>
+    <!---ПЕРЕХОД МЕЖДУ РЕГИСТРАЦИЕЙ И ЛОГИНОМ-->
+    <nav class="Nav content">
+        <button class="RegisterNav content" onclick="(document.getElementById('Register').style.display='block'); (document.getElementById('example').style.display='none');s">Register</button>
+        <button class="LoginNav content" onclick="(document.getElementById('example').style.display='block'); (document.getElementById('Register').style.display='none')">Login</button>
+    </nav>
+    <a class="Movedown content" href="#footer">↓</a>
+
+    <footer class="foot content" id="footer">
+        <h1 class="WebGuideH1Foot content">WebGuide</h1>
+    </footer>
+
+    <button class="CreatorButton content" onclick="alert('Режим разработчика активирован'); (document.getElementById('CreatorSecretPanel').style.display='block')"></button>
+
+    <div class="unsupported-message">Неподдерживаемый браузер</div>
+   
+  </body>
+</html>
