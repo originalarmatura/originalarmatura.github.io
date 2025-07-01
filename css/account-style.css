@@ -44,7 +44,6 @@
             background-position-x: center;
             background-size: cover;
             overflow: auto;
-            touch-action: none;
             font-family: 'MyCustomFont', sans-serif;
             }
 
